@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" type="text1/css" href="style.css">
+    <meta name="Author" content="S.köhler">
+    <title>Coloring Book</title>
+    <style>
+        .menu ul {
+            display: none;
+            position: absolute;
+            top: 4em;
+            left: 0;
+        }
+
+        .menu ul:before {
+            content: "";
+            height: 4em;
+            width: 100%;
+            position: absolute;
+            top: -4em;
+            left: 0;
+        }
+
+        .menu {
+            position: relative;
+            background-color: red;
+        }
+
+        .menu:hover ul{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <h1>Menu</h1>
+        <nav>
+            <ul>
+                <li> erste</li>
+                <li> zweit</li>
+                <li> drite</li>
+                <li> virte</li>
+                <li> fünfte</li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>
